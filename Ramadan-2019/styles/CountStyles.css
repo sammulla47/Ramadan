@@ -1,0 +1,48 @@
+
+
+body {
+	
+  background-image: url(../img/17700.jpg);
+  background-position: top;
+   background-size: 450px 270px;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: BS;
+ 
+  src:  url('../fonts/berkshire-swash-v7-latin-regular.ttf') format('truetype'),
+   url('../fonts/berkshire-swash-v7-latin-regular.woff') format('woff'),
+  url('../fonts/berkshire-swash-v7-latin-regular.woff2') format('woff2'),
+  url('../fonts/berkshire-swash-v7-latin-regular.svg') format('svg'),
+  url('../fonts/berkshire-swash-v7-latin-regular.eot') format('embedded-opentype');
+}
+
+@font-face{
+	font-family: E;
+	src: url('../fonts/Ewert-Regular.ttf') format('truetype');
+}
+
+h1 {
+  font-family: BS;
+}
+
+.container {
+  color: black;
+  text-align: center;
+  padding-top: 15em;
+}
+
+li {
+  font-family: E;
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1.5em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
