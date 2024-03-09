@@ -135,7 +135,7 @@ function showUserAlerts() {
 			var Dua = "-  Aye allah hame dono jahano mai rasul e pak sallallah-alaye-wa-sallam ka gulam banakar rakh."
 		}
 		else {
-			var Roze = "Dua";
+			var Roze = "<span style='color: #5C519D'>#PrayForPalestine #StandWithGaza #BoycottInjustice</span> <br> Dua";
 			var Dua = "- Rabbana atina fid dunya hasanatan wa fil Aakhirati hasanatan waqina ‘adhaban-nar";
 		}
 
@@ -146,7 +146,7 @@ function showUserAlerts() {
 		swal({
 			title: Roze,
 			text: Dua,
-			imageUrl: "img/Sheik.png",
+			imageUrl: "img/Flag-Palestine.webp",
 			showCloseButton: true,
 			showConfirmButton: false,
 //			confirmButtonClass: confirmButtonClass
@@ -158,6 +158,6 @@ function showUserAlerts() {
 				showConfirmButton: false,
 				timer: 1000
 			});
-		}, 8000);
+		}, 10000);
 	}
 }
