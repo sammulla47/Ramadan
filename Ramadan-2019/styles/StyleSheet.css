@@ -1,0 +1,167 @@
+
+/*# my new css*/
+
+body {background-size: cover;}
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+@font-face {
+  font-family: BS;
+ 
+  src:  url('../fonts/berkshire-swash-v7-latin-regular.ttf') format('truetype'),
+   url('../fonts/berkshire-swash-v7-latin-regular.woff') format('woff'),
+  url('../fonts/berkshire-swash-v7-latin-regular.woff2') format('woff2'),
+  url('../fonts/berkshire-swash-v7-latin-regular.svg') format('svg'),
+  url('../fonts/berkshire-swash-v7-latin-regular.eot') format('embedded-opentype');
+}
+
+@font-face{
+	font-family: E;
+	src: url('../fonts/Ewert-Regular.ttf') format('truetype');
+}
+
+
+/* roboto-900 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v19-latin-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/roboto-v19-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v19-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v19-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v19-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v19-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+.head{
+	font-family: E;
+	font-weight: 700;
+}
+
+.firday{
+	background:lime;
+}
+
+.dua-bg{
+	border:8px solid black;
+	font-size:15px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+
+.table{
+	font-family: Roboto;
+	border:8px solid black;
+	border-collapse: separate;
+    border-spacing: 1.5px;
+	cellpadding:0; 
+	cellspacing:0;
+	font-size:15px;
+}
+table.table tr th:first-child{
+	text-align: center;
+}
+table.table tr td:last-child{
+	text-align: center;
+}
+
+.button {
+    border: 0;
+}
+
+.theadbg{
+	font-family: BS;
+	background: #FF4F00;
+}
+
+.theadbg1{
+	font-family: E;
+	background:#FF4F00;
+	text-align: center;
+}
+.panel-align{
+	text-align: center;
+ }
+ .panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.ashra-arabic {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 24px;
+	min-height: 190px;
+	 background-image: url(../img/17838.jpg);
+}
+.islamic-dua-accodian {
+	width: 100%;
+}
+
+
+.dua-accordion-number {
+	display: block;
+	float: left;
+}
+
+.dua-accordion-text {
+	display: block;
+	text-align: center;
+}
+
+.dua-accordion {
+	cursor: pointer;
+	background-color: #1b1e1e;
+	/* height: 80px; */
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	color: #e2ebf4;
+	cursor: pointer;
+	padding: 26.33px;
+	width: 100%;
+	border: 1px #ffffff solid;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	transition: 0.12s;
+}
+
+.dua-panel {
+	background-color: rgb(180, 230, 173);
+	max-height: 69px;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	
+}
+
+.ashra-arabic p {
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 21px;
+	padding-bottom: 15px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.63;
+	letter-spacing: 0.3px;
+	text-align: center;
+	color: #eaeaea;
+}
