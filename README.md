@@ -38,7 +38,7 @@
     </tr>
     <tr>
       <td>2024</td>
-      <td><a href="https://sammulla47.github.io/Ramadan/Ramadan-2024/">Ramadan 2023 Time Table</a></td>
+      <td><a href="https://sammulla47.github.io/Ramadan/Ramadan-2024/">Ramadan 2024 Time Table</a></td>
     </tr>
   </tbody>
 </table>
