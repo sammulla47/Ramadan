@@ -12,35 +12,35 @@ function showUserAlerts() {
 		var today = (now.getMonth()+1)+'/'+now.getDate()+'/'+ now.getFullYear();
 		
 		// if else use Roze Dua as per date 
-		if (today == "3/02/2025") {
+		if (today == "3/2/2025") {
 			var Roze = "1 Roze Padhne Ki Dua";
 			var Dua = "- Aye allah hamari zuban par kalmaye tayyab hamesha jaari rakh."
 		}
-		else if(today == "3/03/2025") {
+		else if(today == "3/3/2025") {
 			var Roze = "2 Roze Padhne Ki Dua";
 			var Dua = "- Aye allah hame kamil eman nasib farma aur puri hidayat ata farma."
 		}
-		else if(today == "3/04/2025") {
+		else if(today == "3/4/2025") {
 			var Roze = "3 Roze Padhne Ki Dua";
 			var Dua = "- Aye allah hame pure ramzan ki neamat anwar wa barkat se malamal farma."
 		}
-		else if(today == "3/05/2025") {
+		else if(today == "3/5/2025") {
 			var Roze = "4 Roze Padhne Ki Dua";
 			var Dua = "-  Aye allah ham par apni rahmat nazil farma karam ki barish farma aur rizik e halal ata farma."
 		}
-		else if(today == "3/06/2025") {
+		else if(today == "3/6/2025") {
 			var Roze = "5 Roze Padhne Ki Dua";
 			var Dua = "-  Aye allah hame deen islam ke ahkam par mukammal tawr par amal karne wala bana de."
 		}
-		else if(today == "3/07/2025") {
+		else if(today == "3/7/2025") {
 			var Roze = "6 Roze Padhne Ki Dua";
 			var Dua = "-   Aye allah tu hame apna mohtaj bana, kisi gayer ka mohotaj na bana."
 		}
-		else if(today == "3/08/2025") {
+		else if(today == "3/8/2025") {
 			var Roze = "7 Roze Padhne Ki Dua";
 			var Dua = "-  Aye allah hame laylatul kadar nasib farma."
 		}
-		else if(today == "3/09/2025") {
+		else if(today == "3/9/2025") {
 			var Roze = "8 Roze Padhne Ki Dua";
 			var Dua = "-  Aye Allah Hame Hajj Maqbool wo Mabroor Naseeb farma."
 		}
